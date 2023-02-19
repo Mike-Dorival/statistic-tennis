@@ -1,0 +1,23 @@
+input[type=text] {
+  border-radius: 12px;
+  background-color: #00000066;
+  color: #fff;
+  width: 527px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: #fff;
+  opacity: 50%;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+input:focus {
+  outline: none;
+}

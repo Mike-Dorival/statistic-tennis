@@ -1,0 +1,147 @@
+:root {
+  --modal-main-color: #F2753B;
+  --modal-front-family: 'Montserrat';
+  --modal-front-weight: bold;
+}
+
+.modal {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 81rem;
+  height: 44rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDimensions {
+  position: absolute;
+  right: 59rem;
+  width: 38%;
+  height: 100%;
+  bottom: 0;
+}
+
+.imgDimensionsSpecific {
+  position: absolute;
+  right: 827px;
+  width: 56%;
+  height: 84%;
+  bottom: 0;
+}
+
+span {
+  position: absolute;
+  top: 40px;
+  cursor: pointer;
+}
+
+span:hover {
+  opacity: 1;
+}
+
+span:before,
+span:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 45px;
+  width: 2px;
+  background-color: #fff;
+}
+
+span:before {
+  transform: rotate(45deg);
+}
+
+span:after {
+  transform: rotate(-45deg);
+}
+
+.modalBorderFirstname {
+  font-size: 100px;
+  color: white;
+  font-weight: var(--modal-front-weight);
+  font-family: sans-serif;
+  -webkit-text-stroke: 4px var(--modal-main-color);
+}
+
+.modalBody {
+  margin: 57px 193px;
+  width: 78%;
+}
+
+.imgDimensionsFlag {
+  object-fit: fill;
+  height: 106px;
+  width: 161px;
+  box-shadow: 0px 0px 13px 0 rgb(0 0 0 / 30%);
+}
+
+h1 {
+  font-family: var(--modal-front-family);
+  color: #000000;
+  opacity: 30%;
+  letter-spacing: 18px;
+  font-weight: 100;
+  font-size: 45px;
+  margin: 15px 0;
+}
+
+.modalLastname {
+  line-height: 1;
+  margin: 0;
+  color: var(--modal-main-color);
+  font-size: 130px;
+  font-weight: 900;
+  font-family: var(--modal-front-family);
+}
+
+.modalFlagAndText {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.modalDisplayInfosPlayer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalDisplayMoreInfosPlayer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 34px;
+  margin: 71px auto;
+  width: 59%;
+  align-items: end;
+}
+
+.modalTitleCategory {
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 30%;
+  font-family: 'Mulish';
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.modalSubTitleCategory {
+  padding-left: 10px;
+  font-family: var(--modal-front-family);
+  font-size: 15px;
+  color: var(--modal-main-color);
+  font-weight: var(--modal-front-weight);
+}

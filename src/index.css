@@ -1,0 +1,5 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, hsl(25deg 57% 55%), hsl(31deg 67% 62%), hsl(26deg 40% 75%));
+}

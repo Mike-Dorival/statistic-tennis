@@ -1,0 +1,62 @@
+:root {
+  --card-title-color: #F2753B;
+  --card-front-family: 'Montserrat';
+  --card-front-weight: bold;
+}
+
+img {
+  width: 219px;
+  height: 144px;
+  object-fit: cover;
+  object-position: 100% 2%;
+}
+
+.cardBody {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 0px 13px 0 rgb(0 0 0 / 30%);
+  padding-top: 10px;
+  width: 33em;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.cardTitleRank {
+  font-family: 'Mulish';
+  font-weight: var(--card-front-weight);
+  color: #000000;
+  opacity: 30%;
+  letter-spacing: 2px;
+  margin: 0px 0px 19px 0px;
+  font-size: 13px;
+}
+
+.alignInfoPlayer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.cardTitleText {
+  font-family: var(--card-front-family);
+  font-weight: var(--card-front-weight);
+  color: var(--card-title-color);
+  font-size: 13px;
+}
+
+.cardTitle {
+  font-family: var(--card-front-family);
+  font-weight: var(--card-front-weight);
+  color: var(--card-title-color);
+  font-size: 20px;
+}
+
+.customLineHeight {
+  line-height: 0
+}
